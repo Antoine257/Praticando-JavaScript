@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(118, 118, 138, 0.493);
+}
+
+h2{
+ text-align: center;
+ color: #663399;
+ margin-top: 50px;
+ font-size: 50px;
+}
+
+.digita-dado{
+ margin-left: 100px;
+
+}
+
+.digita-dado input{
+    width:150px;
+    height: 30px;
+    border: 2px solid  rgba(105, 105, 126, 0.493);
+    margin: 5px;
+    border-radius: 35px 35px;
+    
+}
+
+.digita-dado>#send{
+    width: 80px;
+    height: 34px;
+    color: white;
+    background-color: #663399;
+    border-radius: 15px;
+}
+
+.digita-dado>#send:hover{
+    background-color: teal;
+}
+.tabela thead{
+    color: #663399;
+    
+    
+    
+}

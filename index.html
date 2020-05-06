@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Digitar os Dados do Aluno</h2>
+
+    <div class="digita-dado">
+        Nome: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" placeholder="Digitar o nome do Aluno" autocomplete="off"><br> Avaliação01: <input type="text" id="avaliacao1" placeholder="Digitar a Avaliação01"><br>        Avaliação02:&nbsp;
+        <input type="text" id="avaliacao2" placeholder="Digitar a Avaliação02"><br> Avaliação03&nbsp;&nbsp;
+        <input type="text" id="avaliacao3" placeholder="Digitar a Avaliação03"><br>
+        <button id="send">Inserir</button><br><br><br><br>
+
+
+    </div>
+
+    <table class="tabela">
+        <thead>
+            <tr>
+                <th>Avaliação01</th>
+                <th>Avaliação02</th>
+                <th>Avaliação03</th>
+                <th>Media</th>
+            </tr>
+        </thead>
+        <tbody id="corpo"></tbody>
+
+        <script src="main.js"></script>
+
+    </table>
+</body>
+
+</html>
